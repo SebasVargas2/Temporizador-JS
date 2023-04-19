@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-CO">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,15 +13,14 @@
         <div class="contain">
             <h1>Temporizador</h1>
             <div class="contenido">
-               <div class="datos">
                 <input type="text" name="" id="ingreso">
-                <button id="boton" onclick="start()">INICIAR</button>
-               </div>
-               <div class="dos">
-                    <div class="pantalla" id="pantalla"></div>
+                <div class="botones">
+                    <button id="boton" onclick="start()">Iniciar</button>
                     <button id="pause">Pausar</button>
                     <button id="cancel">Cancelar</button>
-               </div>
+                    <button id="restablecer" onclick="again()">Reestablecer</button>
+                </div>
+                <div class="pantalla" id="pantalla"></div>
             </div>
         </div>
     </main>
